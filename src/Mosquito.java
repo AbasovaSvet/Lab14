@@ -1,9 +1,6 @@
 public class Mosquito {
-    Mosquito(){
         boolean status = true;
-    }
-    @Override
-    public String toString() {
-        return "Жжжжжжжжжжжжжжжжжжжжжжж";
+    public void song() {
+        if (status)System.out.println("Жжжжжжжжжжжжжжжжжжжжжжж");
     }
 }

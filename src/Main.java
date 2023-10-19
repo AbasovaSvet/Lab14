@@ -7,7 +7,7 @@ public class Main {
         public static Mosquito createMosquito(int k){
             Mosquito [] masMosquito = new Mosquito[k];
             for (int i = 0; i < k; i++) {
-                masMosquito[i] = new Mosquito();
+                masMosquito[i] = new Mosquito[];
             }
             return masMosquito;
         }
